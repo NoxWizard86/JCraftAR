@@ -9,8 +9,9 @@ public class Settings {
     static String RECOGNITION_HOSTNAME = "https://search.craftar.net";
     static String MANAGEMENT_HOSTNAME = "https://my.craftar.net";
 
-    static String RECOGNITION_API_VERSION = "v2";
     static String MANAGEMENT_API_VERSION = "v0";
+    public static String RECOGNITION_API_VERSION = "v2";
+    public static String DEFAULT_SEARCH_STRATEGY = "medium-centered";
 
     static String USER_AGENT = String.format("CraftAR/1.3.3 (Java %s)", System.getProperty("java.version"));
 

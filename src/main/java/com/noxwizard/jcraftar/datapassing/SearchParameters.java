@@ -14,9 +14,9 @@ public class SearchParameters implements Parameters {
     private boolean embedCustom = false;
     private boolean embedTracking = false;
     private boolean bbox = false;
-    private Integer appID = null;
-    private String strategy = "medium-centered";
-    private String version = "v2";
+    private String appID = null;
+    private String strategy = Settings.DEFAULT_SEARCH_STRATEGY;
+    private String version = Settings.RECOGNITION_API_VERSION;
 
     public boolean isColor() {
         return color;
@@ -63,11 +63,11 @@ public class SearchParameters implements Parameters {
         return this;
     }
 
-    public int getAppID() {
+    public String getAppID() {
         return appID;
     }
 
-    public SearchParameters setAppID(int appID) {
+    public SearchParameters setAppID(String appID) {
         this.appID = appID;
         return this;
     }
