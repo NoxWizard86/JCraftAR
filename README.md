@@ -29,11 +29,21 @@ Minimum required Java version is 1.7
 
 ## Build
 
-JCraftAR is build using [Apache Maven](http://maven.apache.org)
+JCraftAR is built using [Apache Maven](http://maven.apache.org)
 
 Running the following command will build two jars of JCraftAR, one including dependencies and one without.
 
     mvn clean install
+
+## Include
+
+You can include JCraftAR in your Maven project by adding the following dependency to youp POM file
+
+    <dependency>
+        <groupId>com.noxwizard</groupId>
+        <artifactId>jcraftar</artifactId>
+        <version>0.4</version>
+    </dependency>
 
 ## Quick Start
 
