@@ -37,7 +37,7 @@ Running the following command will build two jars of JCraftAR, one including dep
 
 ## Include
 
-You can include JCraftAR in your Maven project by adding the following dependency to youp POM file
+You can include JCraftAR in your Maven project by adding the following dependency to your POM file
 
     <dependency>
         <groupId>com.noxwizard</groupId>
