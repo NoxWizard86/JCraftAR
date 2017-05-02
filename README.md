@@ -9,12 +9,10 @@ and services.
 
 This client library provides access to CraftAR API:
 
-- [CraftAR Management API]
-(http://craftar.com/documentation/api/management/)
+- [CraftAR Management API](http://craftar.com/documentation/api/management/)
   allows upload and management of _collections_ of _reference images_, and associated meta-data such as _Augmented Reality experiences_ and their content.
   All requests must be authenticated using your _Management API key_.
-- [CraftAR Image Recognition API]
-(https://catchoom.com/documentation/image-recognition-api/)
+- [CraftAR Image Recognition API](https://catchoom.com/documentation/image-recognition-api/)
   allows image recognition against one of your collections of reference images specified using the collection token.
 
 ## Dependencies
